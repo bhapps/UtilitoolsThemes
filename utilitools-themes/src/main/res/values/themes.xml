@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="bhapps_themes_theme_default" parent="BHApps.Themes.Theme">
+
+        <!--<item name="android:windowLightStatusBar">true</item>-->
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="android:windowBackground">@color/bhapps_themes_theme_default_background_color</item>
+        <item name="android:statusBarColor">@color/bhapps_themes_colors_transparent</item>
+        <item name="android:popupBackground">@color/bhapps_themes_theme_default_background_color</item>
+
+        <item name="android:textAppearance">@style/BHApps.Themes.Get.Style.Controls.Fonts.Font.Roboto</item>
+
+        <!-- EditText Fields -->
+        <item name="colorControlNormal">@color/bhapps_themes_theme_default_background_color</item>
+        <item name="colorControlActivated">@color/bhapps_themes_theme_default_default_light_color</item>
+        <item name="colorControlHighlight">@color/bhapps_themes_theme_default_default_light_color</item>
+
+        <item name="cardElevation">@dimen/bhapps_utilitools_dimensions_margin_by_1</item>
+
+        <item name="bhapps_themes_theme_background_color">@color/bhapps_themes_theme_default_background_color</item>
+        <item name="bhapps_themes_theme_background_color_alpha">@color/bhapps_themes_theme_default_background_color_alpha</item>
+        <item name="bhapps_themes_theme_background_color_alt">@color/bhapps_themes_theme_default_background_color_alt</item>
+        <item name="bhapps_themes_theme_background_color_light">@color/bhapps_themes_theme_default_background_color_light</item>
+        <item name="bhapps_themes_theme_background_color_dark">@color/bhapps_themes_theme_default_background_color_dark</item>
+
+        <item name="bhapps_themes_theme_foreground_color">@color/bhapps_themes_theme_default_foreground_color</item>
+        <item name="bhapps_themes_theme_foreground_color_alpha">@color/bhapps_themes_theme_default_foreground_color_alpha</item>
+        <item name="bhapps_themes_theme_foreground_color_alt">@color/bhapps_themes_theme_default_foreground_color_alt</item>
+        <item name="bhapps_themes_theme_foreground_color_light">@color/bhapps_themes_theme_default_foreground_color_light</item>
+        <item name="bhapps_themes_theme_foreground_color_dark">@color/bhapps_themes_theme_default_foreground_color_dark</item>
+
+        <item name="bhapps_themes_theme_primary_color">@color/bhapps_themes_theme_default_primary_color</item>
+        <item name="bhapps_themes_theme_primary_color_alpha">@color/bhapps_themes_theme_default_primary_color_alpha</item>
+        <item name="bhapps_themes_theme_primary_color_light">@color/bhapps_themes_theme_default_primary_color_light</item>
+        <item name="bhapps_themes_theme_primary_color_dark">@color/bhapps_themes_theme_default_primary_color_dark</item>
+
+        <item name="bhapps_themes_theme_secondary_color">@color/bhapps_themes_theme_default_secondary_color</item>
+        <item name="bhapps_themes_theme_secondary_color_alpha">@color/bhapps_themes_theme_default_secondary_color_alpha</item>
+        <item name="bhapps_themes_theme_secondary_color_light">@color/bhapps_themes_theme_default_secondary_color_light</item>
+        <item name="bhapps_themes_theme_secondary_color_dark">@color/bhapps_themes_theme_default_secondary_color_dark</item>
+
+        <item name="bhapps_themes_theme_accent_color">@color/bhapps_themes_theme_default_accent_color</item>
+        <item name="bhapps_themes_theme_accent_color_alpha">@color/bhapps_themes_theme_default_accent_color_alpha</item>
+        <item name="bhapps_themes_theme_accent_color_light">@color/bhapps_themes_theme_default_accent_color_light</item>
+        <item name="bhapps_themes_theme_accent_color_dark">@color/bhapps_themes_theme_default_accent_color_dark</item>
+
+        <item name="bhapps_themes_theme_default_light_color">@color/bhapps_themes_theme_default_default_light_color</item>
+        <item name="bhapps_themes_theme_default_lighter_color">@color/bhapps_themes_theme_default_default_lighter_color</item>
+        <item name="bhapps_themes_theme_default_lightest_color">@color/bhapps_themes_theme_default_default_lightest_color</item>
+        <item name="bhapps_themes_theme_default_color">@color/bhapps_themes_theme_default_default_color</item>
+        <item name="bhapps_themes_theme_default_darker_color">@color/bhapps_themes_theme_default_default_darker_color</item>
+        <item name="bhapps_themes_theme_default_darkest_color">@color/bhapps_themes_theme_default_default_darkest_color</item>
+
+        <item name="bhapps_themes_theme_default_light_color_alpha">@color/bhapps_themes_theme_default_default_light_color_alpha</item>
+        <item name="bhapps_themes_theme_default_lighter_color_alpha">@color/bhapps_themes_theme_default_default_lighter_color_alpha</item>
+        <item name="bhapps_themes_theme_default_lightest_color_alpha">@color/bhapps_themes_theme_default_default_lightest_color_alpha</item>
+        <item name="bhapps_themes_theme_default_color_alpha">@color/bhapps_themes_theme_default_default_color_alpha</item>
+        <item name="bhapps_themes_theme_default_darker_color_alpha">@color/bhapps_themes_theme_default_default_darker_color_alpha</item>
+        <item name="bhapps_themes_theme_default_darkest_color_alpha">@color/bhapps_themes_theme_default_default_darkest_color_alpha</item>
+
+        <item name="bhapps_themes_theme_text_light_color">@color/bhapps_themes_theme_default_text_light_color</item>
+        <item name="bhapps_themes_theme_text_darker_color">@color/bhapps_themes_theme_default_text_darker_color</item>
+        <item name="bhapps_themes_theme_text_darkest_color">@color/bhapps_themes_theme_default_text_darkest_color</item>
+
+        <item name="bhapps_themes_theme_divider_light_color">@color/bhapps_themes_theme_default_divider_light_color</item>
+        <item name="bhapps_themes_theme_divider_darker_color">@color/bhapps_themes_theme_default_divider_darker_color</item>
+        <item name="bhapps_themes_theme_divider_darkest_color">@color/bhapps_themes_theme_default_divider_darkest_color</item>
+
+        <item name="bhapps_themes_theme_tint_color">@color/bhapps_themes_theme_default_tint_color</item>
+        <item name="bhapps_themes_theme_tint_light_color">@color/bhapps_themes_theme_default_tint_light_color</item>
+        <item name="bhapps_themes_theme_tint_dark_color">@color/bhapps_themes_theme_default_tint_dark_color</item>
+        <item name="bhapps_themes_theme_tint_darker_color">@color/bhapps_themes_theme_default_tint_darker_color</item>
+        <item name="bhapps_themes_theme_tint_darkest_color">@color/bhapps_themes_theme_default_tint_darkest_color</item>
+
+        <item name="bhapps_themes_theme_messages_warning_foreground_color">@color/bhapps_themes_theme_default_messages_warning_foreground_color</item>
+        <item name="bhapps_themes_theme_messages_warning_background_color">@color/bhapps_themes_theme_default_messages_warning_background_color</item>
+        <item name="bhapps_themes_theme_messages_warning_light_color">@color/bhapps_themes_theme_default_messages_warning_light_color</item>
+        <item name="bhapps_themes_theme_messages_warning_dark_color">@color/bhapps_themes_theme_default_messages_warning_dark_color</item>
+        <item name="bhapps_themes_theme_messages_warning_tint_color">@color/bhapps_themes_theme_default_messages_warning_tint_color</item>
+        <item name="bhapps_themes_theme_messages_warning_text_color">@color/bhapps_themes_theme_default_messages_warning_text_color</item>
+
+        <item name="bhapps_themes_theme_messages_success_foreground_color">@color/bhapps_themes_theme_default_messages_success_foreground_color</item>
+        <item name="bhapps_themes_theme_messages_success_background_color">@color/bhapps_themes_theme_default_messages_success_background_color</item>
+        <item name="bhapps_themes_theme_messages_success_light_color">@color/bhapps_themes_theme_default_messages_success_light_color</item>
+        <item name="bhapps_themes_theme_messages_success_dark_color">@color/bhapps_themes_theme_default_messages_success_dark_color</item>
+        <item name="bhapps_themes_theme_messages_success_tint_color">@color/bhapps_themes_theme_default_messages_success_tint_color</item>
+        <item name="bhapps_themes_theme_messages_success_text_color">@color/bhapps_themes_theme_default_messages_success_text_color</item>
+
+        <item name="bhapps_themes_theme_messages_notice_foreground_color">@color/bhapps_themes_theme_default_messages_notice_foreground_color</item>
+        <item name="bhapps_themes_theme_messages_notice_background_color">@color/bhapps_themes_theme_default_messages_notice_background_color</item>
+        <item name="bhapps_themes_theme_messages_notice_light_color">@color/bhapps_themes_theme_default_messages_notice_light_color</item>
+        <item name="bhapps_themes_theme_messages_notice_dark_color">@color/bhapps_themes_theme_default_messages_notice_dark_color</item>
+        <item name="bhapps_themes_theme_messages_notice_tint_color">@color/bhapps_themes_theme_default_messages_notice_tint_color</item>
+        <item name="bhapps_themes_theme_messages_notice_text_color">@color/bhapps_themes_theme_default_messages_notice_text_color</item>
+
+        <item name="bhapps_themes_theme_messages_info_foreground_color">@color/bhapps_themes_theme_default_messages_info_foreground_color</item>
+        <item name="bhapps_themes_theme_messages_info_background_color">@color/bhapps_themes_theme_default_messages_info_background_color</item>
+        <item name="bhapps_themes_theme_messages_info_light_color">@color/bhapps_themes_theme_default_messages_info_light_color</item>
+        <item name="bhapps_themes_theme_messages_info_dark_color">@color/bhapps_themes_theme_default_messages_info_dark_color</item>
+        <item name="bhapps_themes_theme_messages_info_tint_color">@color/bhapps_themes_theme_default_messages_info_tint_color</item>
+        <item name="bhapps_themes_theme_messages_info_text_color">@color/bhapps_themes_theme_default_messages_info_text_color</item>
+
+    </style>
+
+    <style name="bhapps_themes_theme_light" parent="BHApps.Themes.Theme">
+
+        <!--<item name="android:windowLightStatusBar">true</item>-->
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="android:windowBackground">@color/bhapps_themes_theme_light_background_color</item>
+        <item name="android:statusBarColor">@color/bhapps_themes_colors_transparent</item>
+        <item name="android:popupBackground">@color/bhapps_themes_theme_light_background_color</item>
+
+        <item name="android:textAppearance">@style/BHApps.Themes.Get.Style.Controls.Fonts.Font.Roboto</item>
+
+        <!-- EditText Fields -->
+        <item name="colorControlNormal">@color/bhapps_themes_theme_light_background_color</item>
+        <item name="colorControlActivated">@color/bhapps_themes_theme_light_default_light_color</item>
+        <item name="colorControlHighlight">@color/bhapps_themes_theme_light_default_light_color</item>
+
+        <item name="cardElevation">@dimen/bhapps_utilitools_dimensions_margin_by_1</item>
+
+        <item name="bhapps_themes_theme_background_color">@color/bhapps_themes_theme_light_background_color</item>
+        <item name="bhapps_themes_theme_background_color_alpha">@color/bhapps_themes_theme_light_background_color_alpha</item>
+        <item name="bhapps_themes_theme_background_color_alt">@color/bhapps_themes_theme_light_background_color_alt</item>
+        <item name="bhapps_themes_theme_background_color_light">@color/bhapps_themes_theme_light_background_color_light</item>
+        <item name="bhapps_themes_theme_background_color_dark">@color/bhapps_themes_theme_light_background_color_dark</item>
+
+        <item name="bhapps_themes_theme_foreground_color">@color/bhapps_themes_theme_light_foreground_color</item>
+        <item name="bhapps_themes_theme_foreground_color_alpha">@color/bhapps_themes_theme_light_foreground_color_alpha</item>
+        <item name="bhapps_themes_theme_foreground_color_alt">@color/bhapps_themes_theme_light_foreground_color_alt</item>
+        <item name="bhapps_themes_theme_foreground_color_light">@color/bhapps_themes_theme_light_foreground_color_light</item>
+        <item name="bhapps_themes_theme_foreground_color_dark">@color/bhapps_themes_theme_light_foreground_color_dark</item>
+
+        <item name="bhapps_themes_theme_primary_color">@color/bhapps_themes_theme_light_primary_color</item>
+        <item name="bhapps_themes_theme_primary_color_alpha">@color/bhapps_themes_theme_light_primary_color_alpha</item>
+        <item name="bhapps_themes_theme_primary_color_light">@color/bhapps_themes_theme_light_primary_color_light</item>
+        <item name="bhapps_themes_theme_primary_color_dark">@color/bhapps_themes_theme_light_primary_color_dark</item>
+
+        <item name="bhapps_themes_theme_secondary_color">@color/bhapps_themes_theme_light_secondary_color</item>
+        <item name="bhapps_themes_theme_secondary_color_alpha">@color/bhapps_themes_theme_light_secondary_color_alpha</item>
+        <item name="bhapps_themes_theme_secondary_color_light">@color/bhapps_themes_theme_light_secondary_color_light</item>
+        <item name="bhapps_themes_theme_secondary_color_dark">@color/bhapps_themes_theme_light_secondary_color_dark</item>
+
+        <item name="bhapps_themes_theme_accent_color">@color/bhapps_themes_theme_light_accent_color</item>
+        <item name="bhapps_themes_theme_accent_color_alpha">@color/bhapps_themes_theme_light_accent_color_alpha</item>
+        <item name="bhapps_themes_theme_accent_color_light">@color/bhapps_themes_theme_light_accent_color_light</item>
+        <item name="bhapps_themes_theme_accent_color_dark">@color/bhapps_themes_theme_light_accent_color_dark</item>
+
+        <item name="bhapps_themes_theme_default_light_color">@color/bhapps_themes_theme_light_default_light_color</item>
+        <item name="bhapps_themes_theme_default_lighter_color">@color/bhapps_themes_theme_light_default_lighter_color</item>
+        <item name="bhapps_themes_theme_default_lightest_color">@color/bhapps_themes_theme_light_default_lightest_color</item>
+        <item name="bhapps_themes_theme_default_color">@color/bhapps_themes_theme_light_default_color</item>
+        <item name="bhapps_themes_theme_default_darker_color">@color/bhapps_themes_theme_light_default_darker_color</item>
+        <item name="bhapps_themes_theme_default_darkest_color">@color/bhapps_themes_theme_light_default_darkest_color</item>
+
+        <item name="bhapps_themes_theme_default_light_color_alpha">@color/bhapps_themes_theme_light_default_light_color_alpha</item>
+        <item name="bhapps_themes_theme_default_lighter_color_alpha">@color/bhapps_themes_theme_light_default_lighter_color_alpha</item>
+        <item name="bhapps_themes_theme_default_lightest_color_alpha">@color/bhapps_themes_theme_light_default_lightest_color_alpha</item>
+        <item name="bhapps_themes_theme_default_color_alpha">@color/bhapps_themes_theme_light_default_color_alpha</item>
+        <item name="bhapps_themes_theme_default_darker_color_alpha">@color/bhapps_themes_theme_light_default_darker_color_alpha</item>
+        <item name="bhapps_themes_theme_default_darkest_color_alpha">@color/bhapps_themes_theme_light_default_darkest_color_alpha</item>
+
+        <item name="bhapps_themes_theme_text_light_color">@color/bhapps_themes_theme_light_text_light_color</item>
+        <item name="bhapps_themes_theme_text_color">@color/bhapps_themes_theme_light_text_color</item>
+        <item name="bhapps_themes_theme_text_darker_color">@color/bhapps_themes_theme_light_text_darker_color</item>
+        <item name="bhapps_themes_theme_text_darkest_color">@color/bhapps_themes_theme_light_text_darkest_color</item>
+
+        <item name="bhapps_themes_theme_divider_light_color">@color/bhapps_themes_theme_light_divider_light_color</item>
+        <item name="bhapps_themes_theme_divider_color">@color/bhapps_themes_theme_light_divider_color</item>
+        <item name="bhapps_themes_theme_divider_darker_color">@color/bhapps_themes_theme_light_divider_darker_color</item>
+        <item name="bhapps_themes_theme_divider_darkest_color">@color/bhapps_themes_theme_light_divider_darkest_color</item>
+
+        <item name="bhapps_themes_theme_tint_color">@color/bhapps_themes_theme_light_tint_color</item>
+        <item name="bhapps_themes_theme_tint_light_color">@color/bhapps_themes_theme_light_tint_light_color</item>
+        <item name="bhapps_themes_theme_tint_dark_color">@color/bhapps_themes_theme_light_tint_dark_color</item>
+        <item name="bhapps_themes_theme_tint_darker_color">@color/bhapps_themes_theme_light_tint_darker_color</item>
+        <item name="bhapps_themes_theme_tint_darkest_color">@color/bhapps_themes_theme_light_tint_darkest_color</item>
+
+        <item name="bhapps_themes_theme_messages_warning_foreground_color">@color/bhapps_themes_theme_light_messages_warning_foreground_color</item>
+        <item name="bhapps_themes_theme_messages_warning_background_color">@color/bhapps_themes_theme_light_messages_warning_background_color</item>
+        <item name="bhapps_themes_theme_messages_warning_light_color">@color/bhapps_themes_theme_light_messages_warning_light_color</item>
+        <item name="bhapps_themes_theme_messages_warning_dark_color">@color/bhapps_themes_theme_light_messages_warning_dark_color</item>
+        <item name="bhapps_themes_theme_messages_warning_tint_color">@color/bhapps_themes_theme_light_messages_warning_tint_color</item>
+        <item name="bhapps_themes_theme_messages_warning_text_color">@color/bhapps_themes_theme_light_messages_warning_text_color</item>
+
+        <item name="bhapps_themes_theme_messages_success_foreground_color">@color/bhapps_themes_theme_light_messages_success_foreground_color</item>
+        <item name="bhapps_themes_theme_messages_success_background_color">@color/bhapps_themes_theme_light_messages_success_background_color</item>
+        <item name="bhapps_themes_theme_messages_success_light_color">@color/bhapps_themes_theme_light_messages_success_light_color</item>
+        <item name="bhapps_themes_theme_messages_success_dark_color">@color/bhapps_themes_theme_light_messages_success_dark_color</item>
+        <item name="bhapps_themes_theme_messages_success_tint_color">@color/bhapps_themes_theme_light_messages_success_tint_color</item>
+        <item name="bhapps_themes_theme_messages_success_text_color">@color/bhapps_themes_theme_light_messages_success_text_color</item>
+
+        <item name="bhapps_themes_theme_messages_notice_foreground_color">@color/bhapps_themes_theme_light_messages_notice_foreground_color</item>
+        <item name="bhapps_themes_theme_messages_notice_background_color">@color/bhapps_themes_theme_light_messages_notice_background_color</item>
+        <item name="bhapps_themes_theme_messages_notice_light_color">@color/bhapps_themes_theme_light_messages_notice_light_color</item>
+        <item name="bhapps_themes_theme_messages_notice_dark_color">@color/bhapps_themes_theme_light_messages_notice_dark_color</item>
+        <item name="bhapps_themes_theme_messages_notice_tint_color">@color/bhapps_themes_theme_light_messages_notice_tint_color</item>
+        <item name="bhapps_themes_theme_messages_notice_text_color">@color/bhapps_themes_theme_light_messages_notice_text_color</item>
+
+        <item name="bhapps_themes_theme_messages_info_foreground_color">@color/bhapps_themes_theme_light_messages_info_foreground_color</item>
+        <item name="bhapps_themes_theme_messages_info_background_color">@color/bhapps_themes_theme_light_messages_info_background_color</item>
+        <item name="bhapps_themes_theme_messages_info_light_color">@color/bhapps_themes_theme_light_messages_info_light_color</item>
+        <item name="bhapps_themes_theme_messages_info_dark_color">@color/bhapps_themes_theme_light_messages_info_dark_color</item>
+        <item name="bhapps_themes_theme_messages_info_tint_color">@color/bhapps_themes_theme_light_messages_info_tint_color</item>
+        <item name="bhapps_themes_theme_messages_info_text_color">@color/bhapps_themes_theme_light_messages_info_text_color</item>
+
+    </style>
+
+    <style name="bhapps_themes_theme_dark" parent="BHApps.Themes.Theme">
+
+        <!--<item name="android:windowLightStatusBar">true</item>-->
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="android:windowBackground">@color/bhapps_themes_theme_dark_background_color</item>
+        <item name="android:statusBarColor">@color/bhapps_themes_colors_transparent</item>
+        <item name="android:popupBackground">@color/bhapps_themes_theme_dark_background_color</item>
+
+        <item name="android:textAppearance">@style/BHApps.Themes.Get.Style.Controls.Fonts.Font.Roboto</item>
+
+        <!-- EditText Fields -->
+        <item name="colorControlNormal">@color/bhapps_themes_theme_dark_background_color</item>
+        <item name="colorControlActivated">@color/bhapps_themes_theme_dark_background_color</item>
+        <item name="colorControlHighlight">@color/bhapps_themes_theme_dark_background_color</item>
+
+        <item name="cardElevation">@dimen/bhapps_utilitools_dimensions_margin_by_1</item>
+
+        <item name="bhapps_themes_theme_background_color">@color/bhapps_themes_theme_dark_background_color</item>
+        <item name="bhapps_themes_theme_background_color_alpha">@color/bhapps_themes_theme_dark_background_color_alpha</item>
+        <item name="bhapps_themes_theme_background_color_alt">@color/bhapps_themes_theme_dark_background_color_alt</item>
+        <item name="bhapps_themes_theme_background_color_light">@color/bhapps_themes_theme_dark_background_color_light</item>
+        <item name="bhapps_themes_theme_background_color_dark">@color/bhapps_themes_theme_dark_background_color_dark</item>
+
+        <item name="bhapps_themes_theme_foreground_color">@color/bhapps_themes_theme_dark_foreground_color</item>
+        <item name="bhapps_themes_theme_foreground_color_alpha">@color/bhapps_themes_theme_dark_foreground_color_alpha</item>
+        <item name="bhapps_themes_theme_foreground_color_alt">@color/bhapps_themes_theme_dark_foreground_color_alt</item>
+        <item name="bhapps_themes_theme_foreground_color_light">@color/bhapps_themes_theme_dark_foreground_color_light</item>
+        <item name="bhapps_themes_theme_foreground_color_dark">@color/bhapps_themes_theme_dark_foreground_color_dark</item>
+
+        <item name="bhapps_themes_theme_primary_color">@color/bhapps_themes_theme_dark_primary_color</item>
+        <item name="bhapps_themes_theme_primary_color_alpha">@color/bhapps_themes_theme_dark_primary_color_alpha</item>
+        <item name="bhapps_themes_theme_primary_color_light">@color/bhapps_themes_theme_dark_primary_color_light</item>
+        <item name="bhapps_themes_theme_primary_color_dark">@color/bhapps_themes_theme_dark_primary_color_dark</item>
+
+        <item name="bhapps_themes_theme_secondary_color">@color/bhapps_themes_theme_dark_secondary_color</item>
+        <item name="bhapps_themes_theme_secondary_color_alpha">@color/bhapps_themes_theme_dark_secondary_color_alpha</item>
+        <item name="bhapps_themes_theme_secondary_color_light">@color/bhapps_themes_theme_dark_secondary_color_light</item>
+        <item name="bhapps_themes_theme_secondary_color_dark">@color/bhapps_themes_theme_dark_secondary_color_dark</item>
+
+        <item name="bhapps_themes_theme_accent_color">@color/bhapps_themes_theme_dark_accent_color</item>
+        <item name="bhapps_themes_theme_accent_color_alpha">@color/bhapps_themes_theme_dark_accent_color_alpha</item>
+        <item name="bhapps_themes_theme_accent_color_light">@color/bhapps_themes_theme_dark_accent_color_light</item>
+        <item name="bhapps_themes_theme_accent_color_dark">@color/bhapps_themes_theme_dark_accent_color_dark</item>
+
+        <item name="bhapps_themes_theme_default_light_color">@color/bhapps_themes_theme_dark_default_light_color</item>
+        <item name="bhapps_themes_theme_default_lighter_color">@color/bhapps_themes_theme_dark_default_lighter_color</item>
+        <item name="bhapps_themes_theme_default_lightest_color">@color/bhapps_themes_theme_dark_default_lightest_color</item>
+        <item name="bhapps_themes_theme_default_color">@color/bhapps_themes_theme_dark_default_color</item>
+        <item name="bhapps_themes_theme_default_darker_color">@color/bhapps_themes_theme_dark_default_darker_color</item>
+        <item name="bhapps_themes_theme_default_darkest_color">@color/bhapps_themes_theme_dark_default_darkest_color</item>
+
+        <item name="bhapps_themes_theme_default_light_color_alpha">@color/bhapps_themes_theme_dark_default_light_color_alpha</item>
+        <item name="bhapps_themes_theme_default_lighter_color_alpha">@color/bhapps_themes_theme_dark_default_lighter_color_alpha</item>
+        <item name="bhapps_themes_theme_default_lightest_color_alpha">@color/bhapps_themes_theme_dark_default_lightest_color_alpha</item>
+        <item name="bhapps_themes_theme_default_color_alpha">@color/bhapps_themes_theme_dark_default_color_alpha</item>
+        <item name="bhapps_themes_theme_default_darker_color_alpha">@color/bhapps_themes_theme_dark_default_darker_color_alpha</item>
+        <item name="bhapps_themes_theme_default_darkest_color_alpha">@color/bhapps_themes_theme_dark_default_darkest_color_alpha</item>
+
+        <item name="bhapps_themes_theme_text_light_color">@color/bhapps_themes_theme_dark_text_light_color</item>
+        <item name="bhapps_themes_theme_text_color">@color/bhapps_themes_theme_dark_text_color</item>
+        <item name="bhapps_themes_theme_text_darker_color">@color/bhapps_themes_theme_dark_text_darker_color</item>
+        <item name="bhapps_themes_theme_text_darkest_color">@color/bhapps_themes_theme_dark_text_darkest_color</item>
+
+        <item name="bhapps_themes_theme_divider_light_color">@color/bhapps_themes_theme_dark_divider_light_color</item>
+        <item name="bhapps_themes_theme_divider_color">@color/bhapps_themes_theme_dark_divider_color</item>
+        <item name="bhapps_themes_theme_divider_darker_color">@color/bhapps_themes_theme_dark_divider_darker_color</item>
+        <item name="bhapps_themes_theme_divider_darkest_color">@color/bhapps_themes_theme_dark_divider_darkest_color</item>
+
+        <item name="bhapps_themes_theme_tint_color">@color/bhapps_themes_theme_dark_tint_color</item>
+        <item name="bhapps_themes_theme_tint_light_color">@color/bhapps_themes_theme_dark_tint_light_color</item>
+        <item name="bhapps_themes_theme_tint_dark_color">@color/bhapps_themes_theme_dark_tint_dark_color</item>
+        <item name="bhapps_themes_theme_tint_darker_color">@color/bhapps_themes_theme_dark_tint_darker_color</item>
+        <item name="bhapps_themes_theme_tint_darkest_color">@color/bhapps_themes_theme_dark_tint_darkest_color</item>
+
+        <item name="bhapps_themes_theme_messages_warning_foreground_color">@color/bhapps_themes_theme_dark_messages_warning_foreground_color</item>
+        <item name="bhapps_themes_theme_messages_warning_background_color">@color/bhapps_themes_theme_dark_messages_warning_background_color</item>
+        <item name="bhapps_themes_theme_messages_warning_light_color">@color/bhapps_themes_theme_dark_messages_warning_light_color</item>
+        <item name="bhapps_themes_theme_messages_warning_dark_color">@color/bhapps_themes_theme_dark_messages_warning_dark_color</item>
+        <item name="bhapps_themes_theme_messages_warning_tint_color">@color/bhapps_themes_theme_dark_messages_warning_tint_color</item>
+        <item name="bhapps_themes_theme_messages_warning_text_color">@color/bhapps_themes_theme_dark_messages_warning_text_color</item>
+
+        <item name="bhapps_themes_theme_messages_success_foreground_color">@color/bhapps_themes_theme_dark_messages_success_foreground_color</item>
+        <item name="bhapps_themes_theme_messages_success_background_color">@color/bhapps_themes_theme_dark_messages_success_background_color</item>
+        <item name="bhapps_themes_theme_messages_success_light_color">@color/bhapps_themes_theme_dark_messages_success_light_color</item>
+        <item name="bhapps_themes_theme_messages_success_dark_color">@color/bhapps_themes_theme_dark_messages_success_dark_color</item>
+        <item name="bhapps_themes_theme_messages_success_tint_color">@color/bhapps_themes_theme_dark_messages_success_tint_color</item>
+        <item name="bhapps_themes_theme_messages_success_text_color">@color/bhapps_themes_theme_dark_messages_success_text_color</item>
+
+        <item name="bhapps_themes_theme_messages_notice_foreground_color">@color/bhapps_themes_theme_dark_messages_notice_foreground_color</item>
+        <item name="bhapps_themes_theme_messages_notice_background_color">@color/bhapps_themes_theme_dark_messages_notice_background_color</item>
+        <item name="bhapps_themes_theme_messages_notice_light_color">@color/bhapps_themes_theme_dark_messages_notice_light_color</item>
+        <item name="bhapps_themes_theme_messages_notice_dark_color">@color/bhapps_themes_theme_dark_messages_notice_dark_color</item>
+        <item name="bhapps_themes_theme_messages_notice_tint_color">@color/bhapps_themes_theme_dark_messages_notice_tint_color</item>
+        <item name="bhapps_themes_theme_messages_notice_text_color">@color/bhapps_themes_theme_dark_messages_notice_text_color</item>
+
+        <item name="bhapps_themes_theme_messages_info_foreground_color">@color/bhapps_themes_theme_dark_messages_info_foreground_color</item>
+        <item name="bhapps_themes_theme_messages_info_background_color">@color/bhapps_themes_theme_dark_messages_info_background_color</item>
+        <item name="bhapps_themes_theme_messages_info_light_color">@color/bhapps_themes_theme_dark_messages_info_light_color</item>
+        <item name="bhapps_themes_theme_messages_info_dark_color">@color/bhapps_themes_theme_dark_messages_info_dark_color</item>
+        <item name="bhapps_themes_theme_messages_info_tint_color">@color/bhapps_themes_theme_dark_messages_info_tint_color</item>
+        <item name="bhapps_themes_theme_messages_info_text_color">@color/bhapps_themes_theme_dark_messages_info_text_color</item>
+
+    </style>
+
+</resources>

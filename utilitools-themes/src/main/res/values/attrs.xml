@@ -1,0 +1,92 @@
+<resources>
+
+    <!-- BH Apps Themes theme attributes (attr) -->
+    <declare-styleable name="bhapps_themes_theme">
+
+    <attr name="bhapps_themes_theme_background_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_background_color_alpha" format="reference|color"/>
+    <attr name="bhapps_themes_theme_background_color_alt" format="reference|color"/>
+    <attr name="bhapps_themes_theme_background_color_light" format="reference|color"/>
+    <attr name="bhapps_themes_theme_background_color_dark" format="reference|color"/>
+
+    <attr name="bhapps_themes_theme_foreground_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_foreground_color_alpha" format="reference|color"/>
+    <attr name="bhapps_themes_theme_foreground_color_alt" format="reference|color"/>
+    <attr name="bhapps_themes_theme_foreground_color_light" format="reference|color"/>
+    <attr name="bhapps_themes_theme_foreground_color_dark" format="reference|color"/>
+
+    <attr name="bhapps_themes_theme_primary_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_primary_color_alpha" format="reference|color"/>
+    <attr name="bhapps_themes_theme_primary_color_light" format="reference|color"/>
+    <attr name="bhapps_themes_theme_primary_color_dark" format="reference|color"/>
+
+    <attr name="bhapps_themes_theme_secondary_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_secondary_color_alpha" format="reference|color"/>
+    <attr name="bhapps_themes_theme_secondary_color_light" format="reference|color"/>
+    <attr name="bhapps_themes_theme_secondary_color_dark" format="reference|color"/>
+
+    <attr name="bhapps_themes_theme_accent_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_accent_color_alpha" format="reference|color"/>
+    <attr name="bhapps_themes_theme_accent_color_light" format="reference|color"/>
+    <attr name="bhapps_themes_theme_accent_color_dark" format="reference|color"/>
+
+    <attr name="bhapps_themes_theme_default_light_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_default_lighter_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_default_lightest_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_default_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_default_darker_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_default_darkest_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_default_light_color_alpha" format="reference|color"/>
+    <attr name="bhapps_themes_theme_default_lighter_color_alpha" format="reference|color"/>
+    <attr name="bhapps_themes_theme_default_lightest_color_alpha" format="reference|color"/>
+    <attr name="bhapps_themes_theme_default_color_alpha" format="reference|color"/>
+    <attr name="bhapps_themes_theme_default_darker_color_alpha" format="reference|color"/>
+    <attr name="bhapps_themes_theme_default_darkest_color_alpha" format="reference|color"/>
+
+    <attr name="bhapps_themes_theme_text_light_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_text_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_text_darker_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_text_darkest_color" format="reference|color"/>
+
+    <attr name="bhapps_themes_theme_divider_light_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_divider_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_divider_darker_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_divider_darkest_color" format="reference|color"/>
+
+    <attr name="bhapps_themes_theme_tint_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_tint_light_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_tint_dark_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_tint_darker_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_tint_darkest_color" format="reference|color"/>
+
+    <attr name="bhapps_themes_theme_messages_warning_foreground_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_messages_warning_background_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_messages_warning_light_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_messages_warning_dark_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_messages_warning_tint_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_messages_warning_text_color" format="reference|color"/>
+
+    <attr name="bhapps_themes_theme_messages_success_foreground_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_messages_success_background_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_messages_success_light_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_messages_success_dark_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_messages_success_tint_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_messages_success_text_color" format="reference|color"/>
+
+    <attr name="bhapps_themes_theme_messages_notice_foreground_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_messages_notice_background_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_messages_notice_light_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_messages_notice_dark_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_messages_notice_tint_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_messages_notice_text_color" format="reference|color"/>
+
+    <attr name="bhapps_themes_theme_messages_info_foreground_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_messages_info_background_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_messages_info_light_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_messages_info_dark_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_messages_info_tint_color" format="reference|color"/>
+    <attr name="bhapps_themes_theme_messages_info_text_color" format="reference|color"/>
+
+    </declare-styleable>
+
+</resources>

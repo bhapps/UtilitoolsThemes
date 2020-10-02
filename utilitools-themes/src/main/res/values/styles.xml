@@ -1,0 +1,202 @@
+<resources>
+
+    <style name="BHApps.Themes.Theme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!--<item name="android:windowLightStatusBar">true</item>-->
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="colorPrimary">@color/bhapps_themes_colors_transparent</item>
+        <item name="colorPrimaryDark">@color/bhapps_themes_colors_transparent</item>
+        <item name="colorAccent">@color/bhapps_themes_colors_transparent</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:actionModeBackground">@color/bhapps_themes_colors_transparent</item>
+        <item name="android:navigationBarColor">?attr/bhapps_themes_theme_background_color</item>
+    </style>
+
+    <!-- defaultBaseTheme -->
+    <style name="defaultTheme" parent="BHApps.Themes.Theme">
+        <item name="colorPrimary">@color/bhapps_themes_colors_transparent</item>
+        <item name="colorPrimaryDark">@color/bhapps_themes_colors_transparent</item>
+        <item name="colorAccent">@color/bhapps_themes_colors_transparent</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:actionModeBackground">@color/bhapps_themes_colors_transparent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="defaultTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="defaultBaseTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="defaultBaseTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="BHApps.Themes.Get.Style.Controls.Button.Primary.From.Theme" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">?attr/bhapps_themes_theme_primary_color</item>
+        <item name="android:textColor">?attr/bhapps_themes_theme_foreground_color</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.Button.Accent.From.Theme" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">?attr/bhapps_themes_theme_accent_color</item>
+        <item name="android:textColor">?attr/bhapps_themes_theme_foreground_color</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.Button.Green.From.Theme" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/bhapps_themes_colors_green_500</item>
+        <item name="android:textColor">?attr/bhapps_themes_theme_foreground_color</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.Button.White.From.Theme" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">?attr/bhapps_themes_theme_foreground_color_light</item>
+        <item name="android:textColor">?attr/bhapps_themes_theme_foreground_color</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.Button.Primary.Borderless.From.Theme" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textColor">?attr/bhapps_themes_theme_primary_color</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.Button.Accent.Borderless.From.Theme" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textColor">?attr/bhapps_themes_theme_accent_color</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.Button.Accent.Borderless.WhiteText.From.Theme" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textColor">?attr/bhapps_themes_theme_foreground_color</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.Button.White.Primary.From.Theme" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">?attr/bhapps_themes_theme_foreground_color</item>
+        <item name="android:textColor">?attr/bhapps_themes_theme_primary_color</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.Button.White.TextDark.From.Theme" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">?attr/bhapps_themes_theme_foreground_color</item>
+        <item name="android:textColor">?attr/bhapps_themes_theme_foreground_color_dark</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.Button.White.Accent.From.Theme" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">?attr/bhapps_themes_theme_foreground_color</item>
+        <item name="android:textColor">?attr/bhapps_themes_theme_accent_color</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.AppCompatRatingBar.Small.AppCompatRatingBar.Yellow.From.Theme" parent="Base.Widget.AppCompat.RatingBar.Small">
+        <item name="colorControlNormal">@color/bhapps_themes_colors_overlay_light_30</item>
+        <item name="colorControlActivated">@color/bhapps_themes_colors_yellow_600</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.AppCompatRatingBar.Small.Yellow.White.From.Theme" parent="Base.Widget.AppCompat.RatingBar.Small">
+        <item name="colorControlNormal">@color/bhapps_themes_colors_overlay_light_30</item>
+        <item name="colorControlActivated">@color/bhapps_themes_colors_yellow_600</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.AppCompatRatingBar.VerySmall.Yellow.From.Theme" parent="@style/BHApps.Themes.Get.Style.Controls.AppCompatRatingBar.Small.Yellow.White.From.Theme">
+
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.AppCompatRatingBar.Yellow.From.Theme" parent="Base.Widget.AppCompat.RatingBar.Indicator">
+        <item name="colorControlNormal">@color/bhapps_themes_colors_overlay_light_50</item>
+        <item name="colorControlActivated">@color/bhapps_themes_colors_yellow_600</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.EditText.Yellow.From.Theme" parent="@style/BHApps.Themes.Theme">
+        <item name="colorControlNormal">@color/bhapps_themes_colors_overlay_light_10</item>
+        <item name="colorControlActivated">@color/bhapps_themes_colors_amber_500</item>
+        <item name="colorControlHighlight">@color/bhapps_themes_colors_amber_500</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.EditText.White.From.Theme" parent="@style/BHApps.Themes.Theme">
+        <item name="colorControlActivated">?attr/bhapps_themes_theme_foreground_color</item>
+        <item name="colorControlHighlight">?attr/bhapps_themes_theme_foreground_color</item>
+        <item name="colorControlNormal">@color/bhapps_themes_colors_overlay_light_30</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.EditText.White.Hint.From.Theme" parent="@style/BHApps.Themes.Get.Style.Controls.EditText.White.From.Theme">
+        <item name="colorAccent">?attr/bhapps_themes_theme_foreground_color</item>
+        <item name="android:textColorHint">@color/bhapps_themes_colors_overlay_light_10</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.EditText.Grey.From.Theme" parent="@style/BHApps.Themes.Theme">
+        <item name="colorControlActivated">@color/bhapps_themes_colors_overlay_light_50</item>
+        <item name="colorControlHighlight">@color/bhapps_themes_colors_overlay_light_50</item>
+        <item name="colorControlNormal">@color/bhapps_themes_colors_overlay_light_30</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.EditText.GreySoft.From.Theme" parent="@style/BHApps.Themes.Theme">
+        <item name="colorControlActivated">@color/bhapps_themes_colors_overlay_light_50</item>
+        <item name="colorControlHighlight">@color/bhapps_themes_colors_overlay_light_50</item>
+        <item name="colorControlNormal">@color/bhapps_themes_colors_overlay_light_30</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.EditText.Grey.Hint.From.Theme" parent="@style/BHApps.Themes.Get.Style.Controls.EditText.GreySoft.From.Theme">
+        <item name="colorAccent">@color/bhapps_themes_colors_overlay_light_50</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.EditText.Green.From.Theme" parent="@style/BHApps.Themes.Theme">
+        <item name="colorControlActivated">@color/bhapps_themes_colors_green_500</item>
+        <item name="colorControlHighlight">@color/bhapps_themes_colors_green_500</item>
+        <item name="colorControlNormal">@color/bhapps_themes_colors_green_300</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.EditText.Flat.From.Theme" parent="@style/BHApps.Themes.Theme">
+        <item name="android:textColorHint">?attr/bhapps_themes_theme_text_darker_color</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Subhead</item>
+        <item name="android:textColor">?attr/bhapps_themes_theme_text_color</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.EditText.Flat.Small.From.Theme" parent="@style/BHApps.Themes.Theme">
+        <item name="android:textColorHint">?attr/bhapps_themes_theme_text_color</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Body1</item>
+        <item name="android:textColor">?attr/bhapps_themes_theme_text_light_color</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.SwitchCompat.From.Theme" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">?attr/bhapps_themes_theme_primary_color</item>
+        <item name="colorSwitchThumbNormal">?attr/bhapps_themes_theme_default_lighter_color</item>
+        <item name="android:textColor">?attr/bhapps_themes_theme_default_light_color</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.SwitchCompat.Text.From.Theme" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">?attr/bhapps_themes_theme_default_light_color</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.Checkbox.From.Theme" parent="@style/BHApps.Themes.Theme">
+        <item name="colorPrimary">?attr/bhapps_themes_theme_primary_color</item>
+        <item name="colorAccent">?attr/bhapps_themes_theme_primary_color</item>
+        <item name="colorControlActivated">?attr/bhapps_themes_theme_primary_color</item>
+        <item name="colorControlHighlight">?attr/bhapps_themes_theme_primary_color</item>
+        <item name="colorControlNormal">?attr/bhapps_themes_theme_text_color</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.Divider.Vertical" parent="@style/BHApps.Themes.Theme">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">?attr/bhapps_themes_theme_divider_color</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.Divider.Horizontal" parent="@style/BHApps.Themes.Theme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?attr/bhapps_themes_theme_divider_color</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.Divider.Header.Horizontal" parent="@style/BHApps.Themes.Theme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?attr/bhapps_themes_theme_divider_color</item>
+    </style>
+
+    <style name="BHApps.Themes.Get.Style.Controls.Divider.Top.Horizontal" parent="@style/BHApps.Themes.Theme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?attr/bhapps_themes_theme_divider_color</item>
+    </style>
+
+    <style name="bhapps_themes_theme_light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>
